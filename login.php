@@ -10,8 +10,8 @@
     <center>
         <h1>Tela de Login</h1>
         <form id="login" action="logado.php" method="POST">
-        Login:<input type="text" id="login" required><br><br>
-        Senha: <input type="password" id="senha" required><br><br>
+        Login:<input type="text" name="login" required><br><br>
+        Senha: <input type="password" name="senha" required><br><br>
         <input type="submit" id="entrar" value="Entrar">
      </form>
     </center>
